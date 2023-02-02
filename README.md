@@ -1,0 +1,3 @@
+# htmlCss-basics
+in this repository you will find some small project using html and css like a application layouts ,liste animation  ,and other components ...
+
