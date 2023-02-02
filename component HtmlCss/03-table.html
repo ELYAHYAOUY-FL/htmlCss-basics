@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>caroussel</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: sans-serif;
+        line-height: 1;
+        display: flex;
+        justify-content: center;
+      }
+      table {
+        width: 800px;
+        /* background-color: aquamarine;
+        border: 2px solid #000; */
+        border-collapse: collapse;
+        font-size: 18px;
+        margin-top: 100px;
+      }
+      td,
+      th {
+        /* border: 2px solid #000; */
+        padding: 16px 24px;
+        text-align: left;
+      }
+      thead th {
+        color: aliceblue;
+        width: 25%;
+        background-color: #087f5b;
+      }
+      tbody tr:nth-child(odd) {
+        background-color: #f8f9fa;
+      }
+      tbody tr:nth-child(even) {
+        background-color: #e9ecef;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th>the chaire</th>
+          <th>the laid blaack</th>
+          <th>the work bee</th>
+          <th>the chaire 4/2</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>width</th>
+          <td>80 cm</td>
+          <td>60 cm</td>
+          <td>220 cm</td>
+        </tr>
+        <tr>
+          <th>hieght</th>
+          <td>100 cm</td>
+          <td>110 cm</td>
+          <td>90 cm</td>
+        </tr>
+        <tr>
+          <th>depth</th>
+          <td>20cm</td>
+          <td>130cm</td>
+          <td>60cm</td>
+        </tr>
+        <tr>
+          <th>wight</th>
+          <td>300cm</td>
+          <td>170cm</td>
+          <td>30cm</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

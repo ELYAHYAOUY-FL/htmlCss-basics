@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>app layout </title>
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+        }
+        body{
+            font-family: sans-serif;
+            font-size: 24px;
+            color: #343a40;
+            font-weight: 700;
+            display: grid;
+            grid-template-columns: 60px 250px 1fr 250px;
+            grid-template-rows: 70px 1fr;
+            height: 100vh;
+        }
+        nav{
+            background-color: #343a40;
+            grid-row: 1/3;
+            color: #fff;
+            font-weight: bold;
+            font-size: 22px;
+            padding-top: 20px;
+            text-align: center;
+        }
+        .mennu{
+            
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        menu{
+            grid-column: 2/5;
+            background-color: #7048e8;
+            align-items: center;
+            justify-content: space-between;
+            display: flex;
+            padding: 0 20px;
+        }
+    .btn{
+        text-align: center;
+        
+        color: #fff;
+        text-decoration:none;
+        gap: 20px;
+        background-color:#5f3dc4 ;
+        padding: 6px 12px;
+        height: 60%;
+        cursor: pointer;
+    }
+    .btnn{
+        text-align: center;
+        color: #fff;
+        text-decoration:none;
+        background-color: red;
+        padding: 6px 12px;
+        height: 60%;
+    }
+        main{
+            text-align: center;
+            padding-top: 10px;
+        }
+        p{
+            background-color:#868e96 ;
+            padding: 15px 50px;
+            margin-bottom: 20px; 
+            width: 90px;  
+            flex-shrink: 0;   
+            font-size: 20px; 
+ }
+        section{
+            background-color: #e9ecef;
+            grid-column: 2/3;
+            text-align: center;
+            padding-top: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            overflow-y: scroll ;
+        }
+        aside{
+            background-color: #e9ecef;
+            text-align: center;
+            padding-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav>NAV</nav>
+    <menu>
+        <div class="mennu">
+            <a href="#" class="btn">New </a>
+            <a href="#" class="btn">Reply</a>
+            <a href="#" class="btn">forward</a>
+            <a href="#" class="btn">mark underead</a>
+        </div>
+        <div>
+         <a href="#" class="btnn" >trash</a>  
+        </div>
+    </menu>
+    <section>
+        <p>Email 1</p>
+        <p>Email 2</p>
+        <p>Email 3</p>
+        <p>Email 4</p>
+        <p>Email 5</p>
+        <p>Email 6</p>
+        <p>Email 7</p>
+        <p>Email 8</p>
+        <p>Email 9</p>
+        <p>Email 10</p>
+        <p>Email 11</p>
+    </section>
+    <main>Emaill vieu</main>
+    <aside>Adition info </aside>
+    
+</body>
+</html>

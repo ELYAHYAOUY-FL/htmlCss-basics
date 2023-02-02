@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  line-height: 1;
+}
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+  border: 5px solid #111;
+  width: 800px;
+  margin: 50px auto;
+  position: relative;
+}
+.box2 {
+  position: absolute;
+  right: 0;
+  top: 30px;
+  width: 300px;
+}
+.box2 .li {
+  margin-left: 0;
+}
+.title {
+  background-color: rgb(228, 217, 217);
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 22px;
+  padding: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.image {
+  margin-top: 0;
+  float: left;
+}
+.box1 {
+  margin-top: 15px;
+  margin-left: 220px;
+  width: 250px;
+  /* position: relative; */
+}
+.box1 p {
+  line-height: 1.5;
+}
+.box1 .free {
+  position: absolute;
+  top: 55px;
+  right: 350px;
+}
+/* .prod {
+  float: right;
+} */
+.price {
+  font-size: 25 px;
+  font-weight: bold;
+}
+.free {
+  color: rgb(83, 93, 85);
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 18px;
+}
+.lien:link,
+.lien:visited {
+  color: #111;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.parag {
+  margin-bottom: 10px;
+}
+.lien:hover,
+.lien:active {
+  text-decoration-line: none;
+}
+.prod {
+  text-transform: uppercase;
+  margin-top: 18px;
+  margin-bottom: 10px;
+}
+.liste {
+  list-style: square;
+  margin-bottom: 10px;
+}
+.liste li {
+  margin-bottom: 10px;
+}
+.boton {
+  color: aliceblue;
+  background-color: rgb(0, 0, 0);
+  /* background-size: 650; */
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  width: 100%;
+}
+.boton:hover {
+  color: #111;
+  background-color: rgb(252, 252, 252);
+  border: none;
+  border-top: solid 5px #111;
+}
+.boton:visited {
+  color: bisque;
+}
+/* article{
+    position: relative;
+} */
+/* article::before{
+    content: "sale";
+    background-color: red;
+    color: aliceblue;
+    font-size: 20px;
+    padding: 18px 20px;
+    letter-spacing: 3px;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+} */
+.sale {
+  background-color: red;
+  color: aliceblue;
+  font-size: 18px;
+  padding: 10px 15px;
+  letter-spacing: 3px;
+  font-weight: bold;
+  /* position: absolute; */
+  display: inline-block;
+  text-transform: uppercase;
+  position: absolute;
+  top: -25px;
+  left: -40px;
+}
+
+.color {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  background-color: #111;
+  margin-top: 10px;
+}
+
+.c1 {
+  background-color: #111;
+}
+.c2 {
+  background-color: rgb(251, 9, 9);
+}
+.c3 {
+  background-color: rgb(74, 9, 251);
+}
+.c4 {
+  background-color: rgb(17, 121, 7);
+}
+.c5 {
+  background-color: rgb(251, 243, 9);
+}
+.c6 {
+  background-color: rgb(126, 64, 7);
+}

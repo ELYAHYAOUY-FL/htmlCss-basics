@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>caroussel</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: sans-serif;
+        line-height: 1;
+      }
+      img {
+        height: 200px;
+        border-radius: 8px;
+        transform: scale(1.5);
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
+      }
+      .caroussel {
+        width: 800px;
+        background-color: #087f5b;
+        margin: 100px auto;
+        border-radius: 8px;
+        padding: 29px;
+        padding-left: 86px;
+        display: flex;
+        align-items: center;
+        gap: 86px;
+        position: relative;
+      }
+      .btn {
+        background-color: white;
+        height: 40px;
+        width: 40px;
+        border: none;
+        position: absolute;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
+        cursor: pointer;
+      }
+      .btn .iconn {
+        stroke: #087f5b;
+        height: 24px;
+        width: 24px;
+      }
+      .text1 {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 1.5;
+        margin-bottom: 32px;
+        color: #e6fcf5;
+      }
+      .text2 {
+        font-size: 14px;
+        margin-bottom: 5px;
+        color: #c3fae8;
+      }
+      .left {
+        left: 0%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .right {
+        right: 0;
+        top: 50%;
+        transform: translate(50%, -50%);
+      }
+      .text3 {
+        font-size: 12px;
+        color: #c3fae8;
+      }
+      .dots {
+        display: flex;
+        gap: 12px;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, 32px);
+      }
+      .dot {
+        width: 12px;
+        height: 12px;
+        border: solid #087f5b 2px;
+        background-color: white;
+        border-radius: 50%;
+      }
+      .dot:first-child {
+        background-color: #087f5b;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="caroussel">
+      <img src="maria.jpg" alt="maria" />
+      <blockquote class="testimoniel">
+        <p class="text1">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt ipsa
+          sit ducimus provident tempore delectus perferendis? Beatae,
+          repellendus illum deserunt maiores
+        </p>
+        <p class="text2">maria de la meirda</p>
+        <p class="text3">sinior product manager at EDP comercial</p>
+      </blockquote>
+      <button class="btn left">
+        <svg
+          class="iconn"
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-6 w-6"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+          stroke-width="2"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M15 19l-7-7 7-7"
+          />
+        </svg>
+      </button>
+      <button class="btn right">
+        <svg
+          class="iconn"
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-6 w-6"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+          stroke-width="2"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M9 5l7 7-7 7"
+          />
+        </svg>
+      </button>
+      <div class="dots">
+        <button class="dot">&nbsp;</button>
+        <button class="dot">&nbsp;</button>
+        <button class="dot">&nbsp;</button>
+        <button class="dot">&nbsp;</button>
+      </div>
+    </div>
+  </body>
+</html>
